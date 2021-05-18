@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF0E0"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Aluno"
+        android:layout_margin="32dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:backgroundTint="#E9791E"
+        android:layout_margin="24sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#170E13"
+        android:textSize="24sp"
+        android:layout_margin="24sp"
+        android:visibility="invisible"
+        android:layout_gravity="center_horizontal"
+        tools:text="Teste"/>
+
+</LinearLayout>
