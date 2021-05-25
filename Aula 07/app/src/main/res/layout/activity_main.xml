@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome completo"
+            android:inputType="textPersonName"
+            android:layout_margin="24dp"/>
+
+        <EditText
+            android:id="@+id/edtMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Credencial"
+            android:inputType="numberDecimal"
+            android:layout_margin="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="A que setor pertence?"/>
+
+        <RadioGroup
+            android:id="@+id/rdgSetor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="24dp">
+            <RadioButton android:id="@+id/rdTech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tecnologia"/>
+            <RadioButton android:id="@+id/rdRH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recursos Humanos"/>
+            <RadioButton android:id="@+id/rdComercial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Comercial"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Cadastrar funcionário"/>
+
+        <EditText
+            android:id="@+id/edtPesquisa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pesquise por credencial..."
+            android:inputType="numberDecimal"
+            android:layout_margin="24dp"/>
+
+        <Button
+            android:id="@+id/btnPesquisar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Pesquisar"/>
+
+    </LinearLayout>
+</ScrollView>
