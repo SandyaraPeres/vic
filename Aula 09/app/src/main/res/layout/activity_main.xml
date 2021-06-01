@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="#FF0000"
+        android:background="#DCD4D4"
         tools:context=".MainActivity">
 
         <EditText
@@ -38,6 +38,7 @@
         <LinearLayout
             android:background="@drawable/background"
             android:layout_width="match_parent"
+            android:layout_margin="24dp"
             android:layout_height="wrap_content">
             <RadioGroup
                 android:id="@+id/rdgSetor"
@@ -48,18 +49,20 @@
                 <RadioButton android:id="@+id/rdTech"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tecnologia"/>
+                    android:text="Tecnologia"
+                    android:onClick="onRadioButtonClicked"/>
                 <RadioButton android:id="@+id/rdRH"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Recursos Humanos"/>
+                    android:text="Recursos Humanos"
+                    android:onClick="onRadioButtonClicked"/>
                 <RadioButton android:id="@+id/rdComercial"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Comercial"/>
+                    android:text="Comercial"
+                    android:onClick="onRadioButtonClicked"/>
             </RadioGroup>
         </LinearLayout>
-
 
         <Button
             android:id="@+id/btnCadastrar"
