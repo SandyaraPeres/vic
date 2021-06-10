@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aula 11</string>
+    <string name="boasvindas">Boas vindas! :)</string>
+    <string name="teste">%1$s, voce tem um saldo de %2$d reais</string>
+    <string name="pessoasElevador">%1$d / %2$d pessoas no elevador</string>
+</resources>

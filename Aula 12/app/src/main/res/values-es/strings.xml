@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clase 11</string>
+    <string name="boasvindas">Bienvenido!</string>
+    <string name="pessoasElevador">%1$d / %2$d personas en el ascensor</string>
+    <string name="teste">%1$s, usted tiene %2$d reais</string>
+</resources>
