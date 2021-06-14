@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aula13</string>
+    <string name="principalButton">Navegar</string>
+    <string name="takePicture">Tirar foto</string>
+</resources>
