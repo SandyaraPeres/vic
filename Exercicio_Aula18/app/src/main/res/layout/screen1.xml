@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginRight="21dp"
+        android:textColor="#4C4C4C"
+        android:textStyle="bold"
+        android:textSize="72dp"
+        android:textAlignment="center"
+        android:text="Ainda\nem\nconstrução" />
+
+</RelativeLayout>
