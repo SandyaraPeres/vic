@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045680913786",
+    "project_id": "marvel-vic",
+    "storage_bucket": "marvel-vic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045680913786:android:87708ac9b9406301332ac3",
+        "android_client_info": {
+          "package_name": "com.sandyara.aula21"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045680913786-pqklf9mq9157nq727nka1to47o9hkjug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fWooSlYdYYhk8y6eSuNNiwVtjswTS08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045680913786-pqklf9mq9157nq727nka1to47o9hkjug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
